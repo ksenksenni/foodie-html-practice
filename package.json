@@ -1,0 +1,25 @@
+{
+  "name": "foodie-html-practice",
+  "version": "1.0.0",
+  "description": "study project",
+  "scripts": {
+    "build": "rimraf dist && gulp compileSass",
+    "watch": "gulp watchSass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolshu/foodie-html-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bolshu/foodie-html-practice/issues"
+  },
+  "homepage": "https://github.com/bolshu/foodie-html-practice#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
