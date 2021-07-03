@@ -22,8 +22,16 @@ function compileSass(done) {
 
 exports.compileSass = compileSass;
 
+function compileSassDev(done) {
+  src("styles/style.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(dest(config.distPath));
+
+  done();
+}
+
 function watchSass() {
-  watch("styles/**/*.scss", compileSass);
+  watch("styles/**/*.scss", compileSassDev);
 }
 
 exports.watchSass = watchSass;
