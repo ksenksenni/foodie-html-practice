@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "study project",
   "scripts": {
-    "build": "rimraf dist && gulp compileSass",
+    "build": "gulp compileSass",
     "watch": "gulp watchSass"
   },
   "repository": {
