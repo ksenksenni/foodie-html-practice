@@ -12,10 +12,16 @@ https://www.figma.com/file/rcqHkU9uOTo3OexEnzYwWv/For-Kissman-%2F-Food-delivery-
 
 Для разработки нужно:
 
-- NodeJs
+- NodeJs v12.0.0
 - NPM
 
 #### Скрипты
+
+Установить зависимости:
+
+```
+ npm i
+```
 
 Собрать проект:
 
