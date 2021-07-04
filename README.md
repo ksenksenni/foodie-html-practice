@@ -13,7 +13,7 @@ https://www.figma.com/file/rcqHkU9uOTo3OexEnzYwWv/For-Kissman-%2F-Food-delivery-
 Для разработки нужно:
 
 - NodeJs v12.0.0
-- NPM
+- NPM v6.9.0
 
 #### Скрипты
 
