@@ -1,0 +1,17 @@
+.main-screen {
+    position: relative;
+    padding-bottom: 605px;
+}
+
+.main-screen__content {
+    background-color: grey;
+    padding-top: 75px;
+    padding-bottom: 145px;
+}
+
+.main-screen__image {
+    position: absolute;
+    left: 50%;
+    top: calc(100% - 145px);
+    transform: translate(-50%);
+}

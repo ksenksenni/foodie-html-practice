@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.header__menu-item {
+    margin-right: 115px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
