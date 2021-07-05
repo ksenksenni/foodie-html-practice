@@ -1,0 +1,22 @@
+.about-app {
+    padding-top: 70px;
+}
+
+.about-app__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
+}
+
+.about-app__image {
+    margin-bottom: 205px;
+}
+
+.about-app__content {
+    text-align: left;
+    width: 560px;
+}
