@@ -1,6 +1,6 @@
 .main-screen {
     position: relative;
-    padding-bottom: 605px;
+    padding-bottom: 640px;
 }
 
 .main-screen__content {
@@ -12,6 +12,6 @@
 .main-screen__image {
     position: absolute;
     left: 50%;
-    top: calc(100% - 145px);
+    bottom: 15%;
     transform: translate(-50%);
 }
