@@ -17,3 +17,18 @@
         margin-right: 0;
     }
 }
+
+.header__menu-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    color: #252B42;
+    &:hover {
+        transform: scale(1.2);
+    }
+    &:active {
+        color: #fa4a0c;
+    }
+}
