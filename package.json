@@ -4,7 +4,7 @@
   "description": "study project",
   "scripts": {
     "build": "gulp compileSass",
-    "watch": "gulp watchSass"
+    "watch": "gulp compileSass && gulp watchSass"
   },
   "repository": {
     "type": "git",
