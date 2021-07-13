@@ -1,5 +1,12 @@
 .about-app {
     padding-top: 70px;
+    text-align: center;
+}
+
+.about-app__content-heading {
+    font-size: 44px;
+    line-height: 36px;
+    font-weight: 600;
 }
 
 .about-app__item {
@@ -12,10 +19,30 @@
     }
 }
 
-.about-app__image {
-    margin-bottom: 205px;
+.about-app__content {
+    text-align: left;
+    width: 560px;
 }
 
-.about-app__content {
-    width: 560px;
+.about-app__content-caption {
+    font-weight: 700;
+    color: #fa4a0c;
+    margin-bottom: 17px;
+}
+
+.about-app__content-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+
+.about-app__content-text {
+    margin-top: 0;
+}
+
+.about-app__image {
+    margin-top: 78px;
+    margin-bottom: 205px;
 }
