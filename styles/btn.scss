@@ -1,9 +1,9 @@
 .btn {
     text-decoration: none;
-    color: #ffffff;
+    color: map-get($colors, 'white');
     padding: 16px 58px;
-    background-color: #FA4A0C;
-    border: 1px solid #FA4A0C;
+    background-color: map-get($colors, 'orange');
+    border: 1px solid map-get($colors, 'orange');
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -14,9 +14,17 @@
         font-size: 16px;
         line-height: 28px;
     }
+    &:hover {
+        transform: scale(1.05);
+    }
+    &:active {
+        color: map-get($colors, 'orange');
+        background-color: map-get($colors, 'orange');
+        border: 1px solid map-get($colors, 'orange');
+    }
 }
 
 .btn--second {
     background-color: transparent;
-    border-color: #ffffff;
+    border-color: map-get($colors, 'orange');
 }

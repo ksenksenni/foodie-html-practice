@@ -1,12 +1,12 @@
 .download {
-    background-color: grey;
+    background-color: map-get($colors, 'grey');
     background-image: url(../img/shelves.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 145px;
     padding-bottom: 130px;
     text-align: center;
-    color: #ffffff;
+    color: map-get($colors, 'white');
 }
 
 .download__title {

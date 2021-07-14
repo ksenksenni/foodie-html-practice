@@ -1,14 +1,15 @@
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 37px;
     margin-bottom: 55px;
 }
 
-.footer__copyrite { 
+.footer__copyrite {
     font-size: 12px;
     line-height: 18px;
+    color: map-get($colors, 'silver-grey');
 }
 
 .footer__social {
@@ -22,7 +23,7 @@
     height: 40px;
     margin-right: 24px;
     vertical-align: middle;
-    color: #a51b1b;
+    color: map-get($colors, 'orange');
     &::before {
         position: absolute;
         content: "";
