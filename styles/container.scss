@@ -1,4 +1,15 @@
 .container {
-    width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    @include for-tablet-large {
+        width: 960px;
+    }
+    @include for-tablet {
+        width: 720px;
+    }
+    @include for-mobile {
+        width: 100%;
+    }
 }

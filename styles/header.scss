@@ -5,10 +5,23 @@
     align-items: center;
 }
 
+.header__mobile-menu {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    @include for-tablet-large {
+        display: block;
+    }
+}
+
 .header__menu {
     display: flex;
     list-style: none;
     padding: 0;
+    @include for-tablet-large {
+        display: none;
+    }
 }
 
 .header__menu-item {
