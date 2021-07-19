@@ -8,17 +8,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: map-get($colors, 'grey');
-    ;
     padding-top: 75px;
     padding-bottom: 160px;
     text-align: center;
     color: map-get($colors, 'white');
-    ;
+    @include for-tablet-large {
+        display: block;
+        background-image: none;
+        background-color: map-get($colors, 'white');
+        color: map-get($colors, 'silver');
+        padding-top: 50px;
+    }
 }
 
 .main-screen__title {
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 17px;
+    @include for-tablet-large {
+        font-size: 16px;
+    }
 }
 
 .main-screen__heading {
@@ -26,18 +34,33 @@
     line-height: 1.3;
     margin-top: 0;
     margin-bottom: 27px;
+    @include for-tablet-large {
+        font-size: 36px;
+        color: map-get($colors, 'grey');
+    }
 }
 
 .main-screen__image {
     display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 50px;
-    transform: translate(-50%);
+    margin: -150px auto 0;
+    max-width: 800px;
+    @include for-tablet-large {
+        margin: 0 20px;
+        max-width: 750px;
+    }
+    @include for-tablet {
+        margin: 0 20px;
+        max-width: 650px;
+    }
+    @include for-mobile {
+        margin: 0 20px;
+        max-width: 550px;
+    }
 }
 
 .main-screen__img {
     display: block;
+    width: 100%;
 }
 
 .main-screen__btn {

@@ -19,12 +19,13 @@
     }
     &:active {
         color: map-get($colors, 'orange');
-        background-color: map-get($colors, 'orange');
-        border: 1px solid map-get($colors, 'orange');
+        background-color: map-get($colors, 'white');
+        border: 1px solid map-get($colors, 'white');
     }
 }
 
 .btn--second {
     background-color: transparent;
     border-color: map-get($colors, 'orange');
+    color: map-get($colors, 'orange');
 }

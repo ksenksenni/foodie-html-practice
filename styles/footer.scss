@@ -4,6 +4,16 @@
     align-items: center;
     margin-top: 37px;
     margin-bottom: 55px;
+    @include for-tablet-large {
+        flex-direction: column;
+    }
+}
+
+.footer__logo {
+    display: block;
+    @include for-tablet-large {
+        display: none;
+    }
 }
 
 .footer__copyrite {

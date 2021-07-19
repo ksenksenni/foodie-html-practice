@@ -7,11 +7,17 @@
     padding-bottom: 130px;
     text-align: center;
     color: map-get($colors, 'white');
+    @include for-tablet-large {
+        background-image: none;
+    }
 }
 
 .download__title {
     font-size: 40px;
     line-height: 57px;
+    @include for-tablet-large {
+        margin: 120px 54px 20px 54px;
+    }
 }
 
 .download__content {

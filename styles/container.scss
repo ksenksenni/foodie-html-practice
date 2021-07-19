@@ -4,12 +4,12 @@
     padding: 0 20px;
     box-sizing: border-box;
     @include for-tablet-large {
-        width: 960px;
+        max-width: 960px;
     }
     @include for-tablet {
-        width: 720px;
+        max-width: 720px;
     }
     @include for-mobile {
-        width: 100%;
+        max-width: 100%;
     }
 }

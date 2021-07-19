@@ -1,48 +1,82 @@
-.about-app {
-    padding-top: 70px;
-    text-align: center;
-}
-
-.about-app__heading {
-    color: map-get($colors, 'black');
-    font-size: 44px;
-    line-height: 36px;
-    font-weight: 600;
-    border-top: 3px solid map-get($colors, 'light-grey');
-    padding-top: 70px;
-}
-
-.about-app__item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 78px;
-    margin-bottom: 205px;
-    &:nth-of-type(2) {
-        flex-direction: row-reverse;
-    }
-}
-
-.about-app__content {
-    text-align: left;
-    width: 560px;
-}
-
-.about-app__content-caption {
-    font-weight: 700;
-    color: map-get($colors, 'orenge');
-    margin-bottom: 17px;
-}
-
-.about-app__content-heading {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    margin-top: 0;
-    margin-bottom: 27px;
-}
-
-.about-app__content-text {
-    margin-top: 0;
-}
+            .about-app {
+                padding-top: 70px;
+                text-align: center;
+                @include for-tablet-large {
+                    padding-top: 50px;
+                }
+            }
+            
+            .about-app__heading {
+                color: map-get($colors, 'black');
+                font-size: 44px;
+                line-height: 36px;
+                font-weight: 600;
+                border-top: 3px solid map-get($colors, 'light-grey');
+                padding-top: 70px;
+                @include for-tablet-large {
+                    border-bottom: 3px solid map-get($colors, 'light-grey');
+                    border-top: none;
+                    padding-bottom: 50px;
+                    padding-top: 0;
+                    font-size: 24px;
+                }
+            }
+            
+            .about-app__item {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 78px;
+                margin-bottom: 205px;
+                &:nth-of-type(2) {
+                    flex-direction: row-reverse;
+                    @include for-tablet-large {
+                        flex-direction: column;
+                    }
+                }
+                @include for-tablet-large {
+                    flex-direction: column;
+                }
+            }
+            
+            .about-app__content {
+                text-align: left;
+                max-width: 560px;
+                @include for-tablet-large {
+                    text-align: center;
+                }
+            }
+            
+            .about-app__content-caption {
+                font-weight: 700;
+                color: map-get($colors, 'orange');
+                margin-bottom: 17px;
+                @include for-tablet-large {
+                    margin-bottom: 40px;
+                }
+            }
+            
+            .about-app__content-heading {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 57px;
+                margin-top: 0;
+                margin-bottom: 27px;
+                @include for-tablet-large {
+                    margin-bottom: 50px;
+                    color: map-get($colors, 'grey');
+                }
+            }
+            
+            .about-app__content-text {
+                margin-top: 0;
+            }
+            
+            .about-app__item-image {
+                @include for-tablet-large {
+                    order: 3;
+                    margin-top: 40px;
+                    padding-bottom: 0;
+                }
+            }
