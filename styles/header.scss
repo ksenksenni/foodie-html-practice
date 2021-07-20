@@ -8,9 +8,10 @@
     .header__mobile-menu {
         display: none;
         width: 20px;
+        margin-right: 20px;
         @include for-tablet-large {
             display: block;
-            margin-right: 20px;
+            margin-right: 5px;
         }
         &line {
             margin-bottom: 3px;
@@ -40,8 +41,8 @@
         display: block;
         text-decoration: none;
         font-size: 16px;
-        font-weight: 700;
-        line-height: 1.75;
+        font-weight: map-get($weight, 'bold');
+        line-height: 28px;
         color: map-get($colors, 'grey');
         &:hover {
             transform: scale(1.2);

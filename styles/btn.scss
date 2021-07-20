@@ -5,7 +5,7 @@
     background-color: map-get($colors, 'orange');
     border: 1px solid map-get($colors, 'orange');
     font-size: 24px;
-    font-weight: 700;
+    font-weight: map-get($weight, 'bold');
     line-height: 36px;
     border-radius: 35px;
     &.btn--small {
