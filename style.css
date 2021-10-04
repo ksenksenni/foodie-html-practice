@@ -1,0 +1,121 @@
+    @font-face {
+        font-family: 'Roboto-Regular';
+        src: url('fonts/Roboto-Regular.eot');
+        src: url('fonts/Roboto-Regular.eot') format('embedded-opentype'), url('fonts/Roboto-Regular.woff2') format('woff2'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'Roboto-Regular', sans-serif;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #000000;
+    }
+    
+    .container {
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+    /* header */
+    
+    .header {
+        background-color: #c4c4c4;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    
+    .header__contant {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__contant-menu {
+        display: flex;
+        list-style: none;
+    }
+    
+    .header__contant-menu-item {
+        margin-right: 40px;
+    }
+    
+    .header__contant-menu-item:last-child {
+        margin-right: 0;
+    }
+    
+    .header__contant-menu-link {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .header__contant-menu-link:hover {
+        opacity: 0.4;
+    }
+    /* main */
+    
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    
+    .main__item {
+        max-width: 410px;
+        max-height: 410px;
+    }
+    
+    .main__item:first-child {
+        background-color: #78DEC7;
+    }
+    
+    .main__item-btn {
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px 34px 16px 60px;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .main__item-btn::before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 35px;
+        background-image: url(img/spritesheet.png);
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-position: -35px -5px;
+    }
+    
+    .main__item-btn:hover {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+    }
+    
+    .main__item-btn:hover::before {
+        background-position: -5px -35px;
+    }
+    /* footer */
+    
+    .footer {
+        background-color: #333333;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__content-copyright {
+        color: #ffffff;
+    }

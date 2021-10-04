@@ -1,132 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie. Study project</title>
-    <link rel="stylesheet" href="dist/style.css">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header container">
-        <div>
-            <img src="img/logo.png" alt="logo">
-        </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__contant">
+                <img src="img/black-star.png" alt="Логотип">
 
-        <nav>
-            <ul class="header__menu">
-                <li class="header__menu-item">
-                    <a class="header__menu-link header__menu-link--active" href="">Home</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="">Product</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="">Faq</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header__mobile-menu">
-            <hr class="header__mobile-menu__line" size=2px width=20px color="#737373">
-            <hr class="header__mobile-menu__line" size=2px width=20px color="#737373">
-            <hr class="header__mobile-menu__line" size=2px width=20px color="#737373">
+                <nav>
+                    <ul class="header__contant-menu">
+                        <li class="header__contant-menu-item"><a href="#" class="header__contant-menu-link">Пункт меню</a></li>
+                        <li class="header__contant-menu-item"><a href="#" class="header__contant-menu-link">Пункт меню</a></li>
+                        <li class="header__contant-menu-item"><a href="#" class="header__contant-menu-link">Пункт меню</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="main-screen">
-            <div class="main-screen__content">
-                <div class="container">
-                    <p class="main-screen__title">Food app</p>
-
-                    <h1 class="main-screen__heading">Why stay hungry when <br> you can order form Bella Onojie</h1>
-
-                    <p>Download the bella onoje’s food app now on</p>
-
-                    <div class="main-screen__btn btn-block btn-block--column">
-                        <a class="btn-block__btn btn" href="#">Playstore</a>
-                        <a class="btn-block__btn btn btn--second" href="#">App store</a>
-                    </div>
+        <div class="container">
+            <section class="main">
+                <div class="main__item">
+                    <button class="main__item-btn">Открыть окно</button>
                 </div>
-            </div>
 
-            <div class="main-screen__image">
-                <img class="main-screen__img" src="img/screens-app.png" alt="Screen app interface">
-            </div>
-        </section>
-
-        <section class="container about-app">
-            <h2 class="about-app__heading">How the app works</h2>
-
-            <section class="about-app__item">
-                <img class="about-app__item-image" src="img/login.png" alt="Screen app Login">
-
-                <div class="about-app__content">
-                    <h4 class="about-app__content-caption">Create an account</h4>
-                    <h3 class="about-app__content-heading">Create/login to an existing account to get started</h3>
-                    <p class="about-app__content-text">An account is created with your email and a desired password</p>
+                <div class="main__item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper blandit tellus, at dignissim neque sagittis quis. Praesent et euismod lectus.
+                    </p>
                 </div>
+
+                <div class="main__item"></div>
+
+                <div class="main__item"></div>
+
+                <div class="main__item">
+                    <img src="img/dog.png" alt="Фото собаки"></div>
             </section>
-
-            <section class="about-app__item">
-                <img class="about-app__item-image" src="img/search.png" alt="Screen app Search">
-
-                <div class="about-app__content">
-                    <h4 class="about-app__content-caption">Explore varieties</h4>
-                    <h3 class="about-app__content-heading">Shop for your favorites meal as e dey hot.</h3>
-                    <p class="about-app__content-text">Shop for your favorite meals or drinks and enjoy while doing it.</p>
-                </div>
-            </section>
-
-            <section class="about-app__item">
-                <img class="about-app__item-image" src="img/payment.png" alt="Screen app Payment">
-
-                <div class="about-app__content">
-                    <h4 class="about-app__content-caption">Checkout</h4>
-                    <h3 class="about-app__content-heading">When you done check out and get it delivered.</h3>
-                    <p class="about-app__content-text">When you done check out and get it delivered with ease.</p>
-                </div>
-            </section>
-        </section>
-
-        <section class="download">
-            <div class="container">
-                <h3 class="download__title">Download the app now.</h3>
-
-                <p class="download__content">Available on your favorite store. Start your premium experience now</p>
-
-                <div class="btn-block btn-block--download">
-                    <a class="btn btn--small" href="#">Playstore</a>
-                    <a class="btn btn--small btn--second" href="#">App store</a>
-                </div>
-                <div class="btn-block--mobil">
-                    <a class="btn-block__btn-mobil btn btn--small" href="#">Buy now</a>
-                    <a class="btn-block__btn-mobil btn btn--small btn--second" href="#">Try for free</a>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
 
-    <footer class="container footer">
-        <div>
-            <img class="footer__logo" src="img/logo.png" alt="logo">
-        </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <img src="img/white-star.png" alt="Логотип">
 
-        <div class="footer__social">
-            <a class="footer__social-btn footer__social-btn--tw" href="#">twitter</a>
-            <a class="footer__social-btn footer__social-btn--fb" href="#">facebook</a>
-            <a class="footer__social-btn footer__social-btn--in" href="#">instagram</a>
-        </div>
-
-        <div>
-            <p class="footer__copyrite">Copywright 2020 Bella Onojie.com</p>
+                <p class="footer__content-copyright">Копирайт</p>
+            </div>
         </div>
     </footer>
+    </div>
 </body>
-
-</html>
